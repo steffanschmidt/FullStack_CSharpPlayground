@@ -67,7 +67,14 @@ namespace PlaygroundSeeSharp
 
             Console.ReadKey();
 
+            InstanceZone.TestObject testobject1 = new InstanceZone.TestObject()
+            {
+                integerValue = 4
+            };
 
+            Console.WriteLine("Value set to {0}", testobject1.integerValue);
+
+            Console.ReadKey();
         }
     }
 }

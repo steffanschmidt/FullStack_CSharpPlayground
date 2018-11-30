@@ -35,4 +35,9 @@ namespace PlaygroundSeeSharp.InstanceZone
             this.soundOfAnimal = soundOfAnimal;
         }
     }
+
+    public struct TestObject
+    {
+        public int integerValue;
+    }
 }
